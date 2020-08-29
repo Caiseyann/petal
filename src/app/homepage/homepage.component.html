@@ -1,0 +1,71 @@
+<nav id="nav" class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+    <a class="navbar-brand" href="#"><strong> G --I-- T-- H-- U-- B <br> search </strong></a>
+  
+    <div class="form">
+      <br><br><br><br>
+      <form class="form-inline">
+        <input name="username" class="form-control" type="text" placeholder="Search user...." [(ngModel)]='username'
+          name="username" aria-label="Search">
+  
+        <button class="btn btn-outline-primary" type="submit" (click)='findProfile()'>Search</button>
+      </form>
+  
+  
+    </div>
+  
+  </nav>
+  
+  <br>
+  <hr><br><br><br><br><br>
+  <div class="whole">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="{{data.avatar_url}}" alt="Card img">
+          <div class="card-body login">
+            <h4 *ngIf='data' class="card-text"> {{data.login}}</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-">
+  
+        <ul class="list-group">
+          <li class="list-group-item" appHighlight><strong>Name: </strong>{{data.login}}</li>
+          <li class="list-group-item"><strong>Repository: </strong>{{data.public_repos}}</li>
+          <li class="list-group-item"><strong>Followers: </strong> {{data.followers}}</li>
+          <li class="list-group-item"><strong>Following: </strong> {{data.following}}</li>
+          
+  
+  
+        </ul>
+  
+      </div>
+  
+    </div>
+    <br>
+    <hr><br>
+    <div class="row">
+  
+      <div class="card col-md-8">
+        <h4 class="card-header text-center"><b>Repositories</b></h4>
+        <div class="card-body">
+          <div class="jumbotron" *ngFor='let repo of repos'>
+            <p>{{repo.name}}</p>
+  
+            <h4 class="btn btn-dark"><a href="{{repo.html_url}} ">VIEW REPOSITORY</a></h4>
+            <p> Description: {{repo.description}}</p>
+  
+  
+            <hr>
+          </div>
+  
+        </div>
+  
+  
+      </div>
+  
+    </div>
+  
+  
+  
+    <router-outlet></router-outlet>

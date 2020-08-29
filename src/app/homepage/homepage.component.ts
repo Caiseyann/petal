@@ -6,11 +6,11 @@ import {Repo} from '../repo';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-landpage',
-  templateUrl: './landpage.component.html',
-  styleUrls: ['./landpage.component.css']
+  selector: 'app-homepage',
+  templateUrl: './homepage.component.html',
+  styleUrls: ['./homepage.component.css']
 })
-export class LandpageComponent implements OnInit {
+export class HomepageComponent implements OnInit {
 
   
   

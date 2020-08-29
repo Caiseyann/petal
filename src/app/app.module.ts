@@ -8,14 +8,11 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import {RoutingModule} from './routing/routing.module';
 import { GitserviceService } from './gitservice.service';
-import { HighlightDirective } from './highlight.directive';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    HighlightDirective
   ],
   imports: [
     BrowserModule,

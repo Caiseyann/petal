@@ -1,22 +1,21 @@
-<nav id="nav" class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
-    <a class="navbar-brand" href="#"><strong> G --I-- T-- H-- U-- B <br> search </strong></a>
-  
+
+  <h1> Below type the profile name of a git user and get a response</h1>
     <div class="form">
-      <br><br><br><br>
+      <br>
       <form class="form-inline">
         <input name="username" class="form-control" type="text" placeholder="Search user...." [(ngModel)]='username'
           name="username" aria-label="Search">
-  
+          <nav id="nav" class="navbar  bg-dark" style="height:min-content">
         <button class="btn btn-outline-primary" type="submit" (click)='findProfile()'>Search</button>
+        </nav>
       </form>
   
   
     </div>
-  
-  </nav>
+ 
   
   <br>
-  <hr><br><br><br><br><br>
+  
   <div class="whole">
     <div class="row">
       <div class="col-md-4">
@@ -45,10 +44,10 @@
     <hr><br>
     <div class="row">
   
-      <div class="card col-md-8">
+      <div class="card col-md-8" style="background-color: blanchedalmond;">
         <h4 class="card-header text-center"><b>Repositories</b></h4>
         <div class="card-body">
-          <div class="jumbotron" *ngFor='let repo of repos'>
+          <div class="container" *ngFor='let repo of repos'>
             <p>{{repo.name}}</p>
   
             <h4 class="btn btn-dark"><a href="{{repo.html_url}} ">VIEW REPOSITORY</a></h4>

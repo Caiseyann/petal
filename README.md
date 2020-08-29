@@ -1,27 +1,105 @@
-# AgularPetal
+#  GitHub profile founder
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10
+
+# DESCRIPTION
+
+This is a GitHub profile search application that allows users to search for profiles 
+
+## User Story
+- User can view different GitHub profiles
+
+- Users have a search button where they can input user profile detail
+
+- Users can see the how many repositories a user has 
+
+- Users can also see a user's profile picture 
+
+- User can view the repositories of a user their searched 
+
+
+# Prerequisites
+
+To work with this app you need to have some few preresuisites.
+
+This include the following mentioned however if you dont have the set below 
+
+
+- Node.js
+
+- Angular framework
+
+- Typescript
+
+- Terminal
+
+
+
+# **SETUP/INSTALLATION.**
+
+**To work With this cli {follow the below instructions for set up.}**
+
+1. You will need Internet connection.
+
+2. You will also need a Webpage URL to load in URL's:
+
+3. To get to use ** Github Profile Search** fist you need to get to the Quotes-Angular repository. 
+
+Link:-> https://caiseyann.github.io/petal/
+
+4. From there you can access GitHub Profile Search.
+
+5. **Clone** the project.
+
+6. Once you done with cloning and project is on your device.
+
+7. get into project folder (cd into project).
+
+8. On your **bash** terminal Run the command:- 
+
+    ---------
+    ng serve.
+    --------
+
+9. Open your prefered **web browser** and load it on local host:
+
+    ---------
+    http://localhost:4200/
+    --------
+
+10. This will load for you GitHub profile search as long as your requirements are satisfied.
+
+
+# TECHNOLOGIES USED
+
+1. Angular version 10 (Framework)
+
+2. Type Script
+
+3. Javascript
+
+4. Bootstrap
+
 
 ## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run -ng serve- for a dev server. Navigate to -http://localhost:4200/-. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Support and Contact
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-Email Address: caiseyann4@gmail.com
 
-## Build
+## License
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The app is licensed by MIT.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+MIT (c) 2020
 
 ## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Live link : https://caiseyann.github.io/petal/
+
